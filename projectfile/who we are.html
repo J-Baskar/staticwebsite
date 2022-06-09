@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramana Engneering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4739f5caa.js"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,
+    wght@0,300;0,400;1,300&family=Poppins:wght@300&display=swap" 
+    rel="stylesheet">
+</head>
+<body>
+    <section class="top-header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo & background/logo.png"></a>
+            <h1>RAMANA ENGINEERING WORKS</h1>
+        </div>
+    </section>
+
+    <section class="header">
+        <nav>
+            <div class="links" id="navlinks">
+                <i class="fa-solid fa-xmark " id="mark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+                    <li><i class="fa-solid fa-user"></i><a href="">About Us</a>
+                        <div class="submenu-1">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i><a href="who we are.html">Who We Are</a></li>
+                                <li><i class="fa-solid fa-star"></i><a href="what we do.html">What We Do</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><i class="fa-solid fa-wrench"></i><a href="">Our Services</a>
+                        <div class="submenu-1">
+                            <ul>
+                                <li><i class="fa-solid fa-star"></i><a href="hydraulic cylinders.html">Hydraulic Cylinders</a></li>
+                                <li><i class="fa-solid fa-star"></i><a href="load cell foots.html">Load cell Foots</a></li>
+                                <li><i class="fa-solid fa-star"></i><a href="cnc and lathe.html">CNC & Lathe</a></li>
+                                <li><i class="fa-solid fa-star"></i><a href="vmc and milling.html">VMC & Milling</a></li>
+                                <li><i class="fa-solid fa-star"></i><a href="projects.html">Projects</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><i class="fa-solid fa-address-card"></i><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="bar" onclick="showmenu()"></i>
+        </nav>
+    </section>
+
+
+    <section class="who-we-are-aboutus">
+        <h1>WHO WE ARE</h1>
+        <p> 
+            Ramana Engineering Works was founded in 2004 by K.S.Venkatraman<br><br>
+            Ramana Engineering Works specializes in the design and manufacture of custom equipments
+            for the chemical,automobile,medical and weighing industries.We are large enough to handle custom
+            hydraulic cylinders and load cell foots request of any size.We have a solid reputation
+            in the process industries as a company deeply committed to making first class products
+            delivered to you on time.<br><br>
+            We are fully experienced to work with the various grades of materials.Our focus here at 
+            Ramana Engineering Works is to offer the best quality machining,hydraulic cylinder repairs and 
+            load cell foots India wide.We are comitted to offering a fast service without sacrificing quality
+            workmanship, so you can get your machines back up and running as soon as possible. 
+        </p>
+        <a href="contact us.html" class="hero-btn">Contact Us</a>
+    </section>
+    
+    <section class="footer">
+        <div>
+           <p>Ramana Engineering Works<br>copyright&copy; 2022.All rights Reserved</p>
+        </div>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+            function showmenu(){
+                navlinks.style.right="0";
+            }
+            function hidemenu(){
+                navlinks.style.right="-220px";
+            }
+
+    </script>
+</body>
+</html>
